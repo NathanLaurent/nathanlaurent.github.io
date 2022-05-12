@@ -73,12 +73,12 @@ font-weight: 500 900;
 
 @font-face {
     font-family: 'frames_part_onemedium';
-    src: url('framespartone-medium.eot');
-    src: url('framespartone-medium.eot?#iefix') format('embedded-opentype'),
-         url('framespartone-medium.woff2') format('woff2'),
-         url('framespartone-medium.woff') format('woff'),
-         url('framespartone-medium.ttf') format('truetype'),
-         url('framespartone-medium.svg#frames_part_onemedium') format('svg');
+    src: url('../framespartone-medium.eot');
+    src: url('../framespartone-medium.eot?#iefix') format('embedded-opentype'),
+         url('../framespartone-medium.woff2') format('woff2'),
+         url('../framespartone-medium.woff') format('woff'),
+         url('../framespartone-medium.ttf') format('truetype'),
+         url('../framespartone-medium.svg#frames_part_onemedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -89,12 +89,12 @@ font-weight: 500 900;
 
 @font-face {
     font-family: 'frames_part_onebold';
-    src: url('framespartone-bold.eot');
-    src: url('framespartone-bold.eot?#iefix') format('embedded-opentype'),
-         url('framespartone-bold.woff2') format('woff2'),
-         url('framespartone-bold.woff') format('woff'),
-         url('framespartone-bold.ttf') format('truetype'),
-         url('framespartone-bold.svg#frames_part_onebold') format('svg');
+    src: url('../framespartone-bold.eot');
+    src: url('../framespartone-bold.eot?#iefix') format('embedded-opentype'),
+         url('../framespartone-bold.woff2') format('woff2'),
+         url('../framespartone-bold.woff') format('woff'),
+         url('../framespartone-bold.ttf') format('truetype'),
+         url('../framespartone-bold.svg#frames_part_onebold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -105,12 +105,12 @@ font-weight: 500 900;
 
 @font-face {
     font-family: 'frames_part_onethin';
-    src: url('framespartone-thin.eot');
-    src: url('framespartone-thin.eot?#iefix') format('embedded-opentype'),
-         url('framespartone-thin.woff2') format('woff2'),
-         url('framespartone-thin.woff') format('woff'),
-         url('framespartone-thin.ttf') format('truetype'),
-         url('framespartone-thin.svg#frames_part_onethin') format('svg');
+    src: url('../framespartone-thin.eot');
+    src: url('../framespartone-thin.eot?#iefix') format('embedded-opentype'),
+         url('../framespartone-thin.woff2') format('woff2'),
+         url('../framespartone-thin.woff') format('woff'),
+         url('../framespartone-thin.ttf') format('truetype'),
+         url('../framespartone-thin.svg#frames_part_onethin') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -121,12 +121,12 @@ font-weight: 500 900;
 
 @font-face {
     font-family: 'frames_part_onelight';
-    src: url('framespartone-light.eot');
-    src: url('framespartone-light.eot?#iefix') format('embedded-opentype'),
-         url('framespartone-light.woff2') format('woff2'),
-         url('framespartone-light.woff') format('woff'),
-         url('framespartone-light.ttf') format('truetype'),
-         url('framespartone-light.svg#frames_part_onelight') format('svg');
+    src: url('../framespartone-light.eot');
+    src: url('../framespartone-light.eot?#iefix') format('embedded-opentype'),
+         url('../framespartone-light.woff2') format('woff2'),
+         url('../framespartone-light.woff') format('woff'),
+         url('../framespartone-light.ttf') format('truetype'),
+         url('../framespartone-light.svg#frames_part_onelight') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -137,12 +137,12 @@ font-weight: 500 900;
 
 @font-face {
     font-family: 'frames_part_oneregular';
-    src: url('framespartone-regular.eot');
-    src: url('framespartone-regular.eot?#iefix') format('embedded-opentype'),
-         url('framespartone-regular.woff2') format('woff2'),
-         url('framespartone-regular.woff') format('woff'),
-         url('framespartone-regular.ttf') format('truetype'),
-         url('framespartone-regular.svg#frames_part_oneregular') format('svg');
+    src: url('../framespartone-regular.eot');
+    src: url('../framespartone-regular.eot?#iefix') format('embedded-opentype'),
+         url('../framespartone-regular.woff2') format('woff2'),
+         url('../framespartone-regular.woff') format('woff'),
+         url('../framespartone-regular.ttf') format('truetype'),
+         url('../framespartone-regular.svg#frames_part_oneregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
