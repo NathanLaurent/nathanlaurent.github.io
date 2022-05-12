@@ -1,0 +1,280 @@
+@font-face {
+ font-family: 'FramesVariable';
+/* src: url('../fonts/frames/variable/FramespartoneGX.ttf') format('truetype');*/
+    src: url('../fonts/frames/variable/FramespartoneGX.ttf')
+        format('truetype-variations');
+font-weight: 500 900;
+}
+
+@font-face {
+    font-family: 'Framespartone-Regular';
+    src: url('../fonts/frames/Framespartone-Regular.eot');
+    src: url('../fonts/frames/Framespartone-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frames/Framespartone-Regular.woff2') format('woff2'),
+         url('../fonts/frames/Framespartone-Regular.woff') format('woff'),
+         url('../fonts/frames/Framespartone-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Framespartone-SemiBold';
+    src: url('../fonts/frames/Framespartone-SemiBold.eot');
+    src: url('../fonts/frames/Framespartone-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frames/Framespartone-SemiBold.woff2') format('woff2'),
+         url('../fonts/frames/Framespartone-SemiBold.woff') format('woff'),
+         url('../fonts/frames/Framespartone-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Framespartone-Light';
+    src: url('../fonts/frames/Framespartone-light.eot');
+    src: url('../fonts/frames/Framespartone-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frames/Framespartone-light.woff2') format('woff2'),
+         url('../fonts/frames/Framespartone-light.woff') format('woff'),
+         url('../fonts/frames/Framespartone-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'halftoneregular';
+    src: url('../fonts/halftone/halftone-webfont.eot');
+    src: url('../fonts/halftone/halftone-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/halftone/halftone-webfont.woff2') format('woff2'),
+         url('../fonts/halftone/halftone-webfont.woff') format('woff'),
+         url('../fonts/halftone/halftone-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'liga_sansregular';
+    src: url('../fonts/liga-sans/ligasans-regular-webfont.eot');
+    src: url('../fonts/liga-sans/ligasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liga-sans/ligasans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/liga-sans/ligasans-regular-webfont.woff') format('woff'),
+         url('../fonts/liga-sans/ligasans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bildenregular';
+    src: url('../fonts/bilden/bilden-regular-webfont.eot');
+    src: url('../fonts/bilden/bilden-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bilden/bilden-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bilden/bilden-regular-webfont.woff') format('woff'),
+         url('../fonts/bilden/bilden-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'formatitalic';
+    src: url('../fonts/format/format-italic-webfont.eot');
+    src: url('../fonts/format/format-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/format/format-italic-webfont.woff2') format('woff2'),
+         url('../fonts/format/format-italic-webfont.woff') format('woff'),
+         url('../fonts/format/format-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    border-collapse: collapse;
+    height: 7vh;
+    background-color: transparent;
+}
+
+header h1{
+    height: 5vh;
+    font-size: 120%;
+    font-family: serif;
+    position: relative;
+    float: left;
+    width: 33.33333333333333333%;
+    border: solid 1px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    padding: 4px;
+    
+}
+
+header h1:hover{
+    border-radius: 0px;
+    transition-duration: 0.5s;
+    background-color: darkorange;
+}
+
+select{
+    background-color: transparent;
+    appearance: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+select:hover{
+    appearance: none;
+    border: none;
+    outline: none;
+}
+
+select::after{
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+.container{
+    position: fixed;
+    top: 7vh;
+    left: 0;
+    right: 0;
+    bottom: 0vh;
+    width: 100vw;
+    height: 93vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: transparent;
+}
+
+.line{
+    position: relative;
+    height: 31vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-bottom: solid 1px;
+    border-bottom-right-radius: 50px;
+    mix-blend-mode:hard-light;
+    background-color: transparent;
+}
+
+.line p{
+    appearance: none;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    mix-blend-mode:hard-light;
+}
+
+header input{
+    position: relative;
+    float: left;
+    height: 1px;
+    width: 66.666666666vw;
+    margin-top: 0.5%;
+    -webkit-appearance: none; 
+  appearance: none;
+  background: #000000;  
+    border-radius: 10px;
+  outline: none; 
+  opacity: 1; 
+  -webkit-transition: .2s; 
+  transition: opacity .2s;
+    border: none;
+    z-index: 500;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 10px; /* Set a specific slider handle width */
+  height: 10px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+    border-radius: 50%;
+    z-index: 500;
+    transition-duration: 0.5s;
+}
+
+.slider::-moz-range-thumb {
+  width: 10px; /* Set a specific slider handle width */
+  height: 10px; /* Slider handle height */
+  background: #04AA6D; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+    border-radius: 50%;
+    z-index: 500;
+    transition-duration: 0.5s;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 50px; /* Set a specific slider handle width */
+  height: 50px; /* Slider handle height */
+    border-radius: 50%;
+    z-index: 500;
+    transition-duration: 0.5s;
+    
+/*    box-shadow: 20px 20px 50px black;*/
+}
+
+.slider::-moz-range-thumb:hover {
+  width: 10px; /* Set a specific slider handle width */
+  height: 10px; /* Slider handle height */
+    border-radius: 50%;
+    z-index: 500;
+    transition-duration: 0.5s;
+}
+
+.line h1{
+    position: absolute;
+    width: 33.3333vw;
+    float: left;
+    font-family: serif;
+    font-size: 20px;
+    padding-left: 4px;
+    height: auto;
+    background-color: white;
+    border-bottom: solid 1px black;
+/*    box-shadow: black 10px 10px 5px;*/
+    border-radius: 50px;
+    z-index: 400;
+    mix-blend-mode:hard-light;
+}
+
+.disp{
+    font-size: 30px;
+}
+
+#disp1{
+    font-family: 'Framespartone-Light';
+}
+
+#disp2{
+    font-family: 'Framespartone-Regular';
+}
+
+#disp3{
+    font-family: 'Framespartone-SemiBold';
+}
+
+#about-txt{
+    position: absolute;
+    top: 66.6666vh;
+    bottom: 0vh;
+    height: 33.33333vh;
+    width: 100vw;
+    font-family: serif;
+    font-size: 25px;
+    background-color: grey;
+}

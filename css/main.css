@@ -1,0 +1,158 @@
+@font-face {
+ font-family: 'FramesVariable';
+/* src: url('../fonts/frames/variable/FramespartoneGX.ttf') format('truetype');*/
+    src: url('../fonts/frames/variable/FramespartoneGX.ttf')
+        format('truetype-variations');
+font-weight: 500 900;
+}
+
+@font-face {
+    font-family: 'Framespartone-Regular';
+    src: url('../fonts/frames/Framespartone-Regular.eot');
+    src: url('../fonts/frames/Framespartone-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frames/Framespartone-Regular.woff2') format('woff2'),
+         url('../fonts/frames/Framespartone-Regular.woff') format('woff'),
+         url('../fonts/frames/Framespartone-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'halftoneregular';
+    src: url('../fonts/halftone/halftone-webfont.eot');
+    src: url('../fonts/halftone/halftone-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/halftone/halftone-webfont.woff2') format('woff2'),
+         url('../fonts/halftone/halftone-webfont.woff') format('woff'),
+         url('../fonts/halftone/halftone-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'liga_sansregular';
+    src: url('../fonts/liga-sans/ligasans-regular-webfont.eot');
+    src: url('../fonts/liga-sans/ligasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/liga-sans/ligasans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/liga-sans/ligasans-regular-webfont.woff') format('woff'),
+         url('../fonts/liga-sans/ligasans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bildenregular';
+    src: url('../fonts/bilden/bilden-regular-webfont.eot');
+    src: url('../fonts/bilden/bilden-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bilden/bilden-regular-webfont.woff2') format('woff2'),
+         url('../fonts/bilden/bilden-regular-webfont.woff') format('woff'),
+         url('../fonts/bilden/bilden-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'formatitalic';
+    src: url('../fonts/format/format-italic-webfont.eot');
+    src: url('../fonts/format/format-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/format/format-italic-webfont.woff2') format('woff2'),
+         url('../fonts/format/format-italic-webfont.woff') format('woff'),
+         url('../fonts/format/format-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+header{
+    border-collapse:collapse;
+    
+}
+
+header h1{
+    font-family: 'FramesVariable';
+    font-variation-settings: 'wght' 510;
+    position: relative;
+    float: left;
+    width: 33.33333333333333333%;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+    border-radius: 0px;
+    transition-duration: 0.5s;
+    padding-left: 1%;
+}
+
+header h1:hover{
+    font-family: 'FramesVariable';
+    font-variation-settings: 'wght' 899;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+}
+
+body{
+  font-family: 'Framespartone-Regular';
+    font-size: 30px;
+  background:lightgray;
+}
+
+.bloc h2{
+    position: relative;
+    display:inline-block;
+    padding: 1%;
+    font-family: serif;
+    font-size: 18px;
+    width:auto;
+    border: solid 1px yellow;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+}
+
+
+.bloc{
+    position: relative;
+    float: left;
+    height: 33.3333333333vh;
+    padding-left: 1%;
+    border: solid 1px black;
+    border-collapse: collapse;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-radius: 0px;
+    transition-duration: 0.5s;
+}
+
+.bloc:hover{
+    border-radius: 25px;
+     transition-duration: 0.5s;
+}
+
+.bloc:hover h2{
+    border-radius: 0px;
+    transition-duration: 0.5s;
+}
+
+.bloc a{
+    font-family: 'Framespartone-Regular';
+    color: black;
+    box-shadow: yellow 10px 10px 50px;
+    text-decoration: none;
+    border-radius: 0px;
+    transition-duration: 0.5s;
+}
+
+.bloc a:hover{
+    box-shadow: yellow 1px 1px 1px;
+    border-radius: 50px;
+    color: yellow;
+    transition-duration: 0.5s;
+}
+
+.fifty{
+    width: 50vw;
+}
+

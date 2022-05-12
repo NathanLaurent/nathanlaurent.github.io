@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Nathan Laurent Foundry</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main1.css" />
+  </head>
+    <header>
+    <h1>Nathan Laurent</h1>
+    <h1 style="padding: 3px;"><select onchange="window.location = this.options[this.selectedIndex].value;">
+    
+     <option value="index.html">Select font</option>
+    <option value="index2.html">Granturismo (soon)</option>
+    <option value="index2.html">Frames Part One</option>
+    <option value="index3.html">Liga Sans</option>
+    <option value="index4.html">Format</option>
+    <option value="index5.html">Bilden</option>
+</select></h1>
+    <h1>Info - Contact</h1>
+    <input type="range" min="10" max="100" value="30" id="font-size" />
+    </header>
+  <body>
+      <div class="container">
+      
+       
+        <div id="abouttxt">
+          Hi, i'm Nathan, I design open source typefaces since 2018. 
+            I've studied graphic design at ENSAD Nancy, France and Typography at ERG (Ecole de Recherche Graphique) in Brussels, Belgium.
+            I've worked as an editorial designer for Maison Moderne, taught Type design as a guestprof at Hochschule der Bildendeb Künste Saar.
+            I've created this web space to share and distribute my work. You can also contact me <a href="">here</a> or <a href="">here</a> for any inquiries / collaborations. I can design bespoke typefaces (open-source or under copyright depending to you), editorial objects as books, zines, newspapers. Web interfaces.<br>
+        </div>
+          
+      </div>
+      
+     
+      
+  </body>
+  
+  <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+    var slider = document.getElementById('font-size');
+
+slider.addEventListener('input', function() {
+    var size = slider.value;
+    
+    document.getElementById('disp1').style.fontSize = size + "px";
+    document.getElementById('disp2').style.fontSize = size + "px";
+    document.getElementById('disp3').style.fontSize = size + "px";
+});
+       
+    </script>
+  
+  
+</html>
