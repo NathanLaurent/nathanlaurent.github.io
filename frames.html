@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Nathan Laurent Foundry</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main1.css" />
+  </head>
+    <header>
+    <h1><a href="index.html">Nathan Laurent</a></h1>
+    <h1 style="padding: 3px;"><select onchange="window.location = this.options[this.selectedIndex].value;">
+    
+     <option value="index.html">Select font</option>
+    
+    <option value="frames.html">Frames Part One</option>
+    <option value="https://github.com/NathanLaurent/Liga-Sans">Liga Sans</option>
+    <option value="https://github.com/NathanLaurent/Format">Format</option>
+    <option value="https://github.com/NathanLaurent/Bilden">Bilden</option>
+</select></h1>
+    <h1><a href="about.html">Info - Contact</a></h1>
+   
+    </header>
+  <body>
+      <div class=container>
+       <a href="FramesPartOne.zip" id="download">Download</a>
+      <p class="fullfont" id="framesfull">
+      Frames Part One : Thin/ Light/ Regular/ Medium/ Bold and Variable. Version 1.6. Release May 22. SIL Open Font License
+      </p>
+      </div>
+     
+  </body>
+  
+  <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+    var slider = document.getElementById('font-size');
+
+slider.addEventListener('input', function() {
+    var size = slider.value;
+    
+    document.getElementById('disp1').style.fontSize = size + "px";
+    document.getElementById('disp2').style.fontSize = size + "px";
+    document.getElementById('disp3').style.fontSize = size + "px";
+});
+       
+    </script>
+  
+  
+</html>

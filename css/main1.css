@@ -19,12 +19,24 @@ font-weight: 500 900;
 }
 
 @font-face {
-    font-family: 'Framespartone-SemiBold';
-    src: url('../fonts/frames/Framespartone-SemiBold.eot');
-    src: url('../fonts/frames/Framespartone-SemiBold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/frames/Framespartone-SemiBold.woff2') format('woff2'),
-         url('../fonts/frames/Framespartone-SemiBold.woff') format('woff'),
-         url('../fonts/frames/Framespartone-SemiBold.ttf') format('truetype');
+    font-family: 'Framespartone-Medium';
+    src: url('../fonts/frames/Framespartone-Medium.eot');
+    src: url('../fonts/frames/Framespartone-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frames/Framespartone-Medium.woff2') format('woff2'),
+         url('../fonts/frames/Framespartone-Medium.woff') format('woff'),
+         url('../fonts/frames/Framespartone-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Framespartone-Thin';
+    src: url('../fonts/frames/Framespartone-Thin.eot');
+    src: url('../fonts/frames/Framespartone-Thin.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frames/Framespartone-Thin.woff2') format('woff2'),
+         url('../fonts/frames/Framespartone-Thin.woff') format('woff'),
+         url('../fonts/frames/Framespartone-Thin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -32,11 +44,23 @@ font-weight: 500 900;
 
 @font-face {
     font-family: 'Framespartone-Light';
-    src: url('../fonts/frames/Framespartone-light.eot');
-    src: url('../fonts/frames/Framespartone-light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/frames/Framespartone-light.woff2') format('woff2'),
-         url('../fonts/frames/Framespartone-light.woff') format('woff'),
-         url('../fonts/frames/Framespartone-light.ttf') format('truetype');
+    src: url('../fonts/frames/Framespartone-Light.eot');
+    src: url('../fonts/frames/Framespartone-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frames/Framespartone-Light.woff2') format('woff2'),
+         url('../fonts/frames/Framespartone-Light.woff') format('woff'),
+         url('../fonts/frames/Framespartone-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Framespartone-Bold';
+    src: url('../fonts/frames/Framespartone-Bold.eot');
+    src: url('../fonts/frames/Framespartone-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frames/Framespartone-Bold.woff2') format('woff2'),
+         url('../fonts/frames/Framespartone-Bold.woff') format('woff'),
+         url('../fonts/frames/Framespartone-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -90,32 +114,52 @@ font-weight: 500 900;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'sneaky';
+    src: url('../fonts/sneaky/Sneaky-Times.eot');
+    src: url('../fonts/sneaky/Sneaky-Times.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sneaky/Sneaky-Times.woff2') format('woff2'),
+         url('../fonts/sneaky/Sneaky-Times.woff') format('woff'),
+         url('../fonts/sneaky/Sneaky-Times.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 header{
     position: fixed;
     width: 100vw;
     border-collapse: collapse;
     height: 7vh;
     background-color: transparent;
+    z-index: 500;
 }
 
 header h1{
     height: 5vh;
     font-size: 120%;
     font-family: serif;
+    font-style: oblique 150deg;
     position: relative;
     float: left;
     width: 33.33333333333333333%;
     border: solid 1px;
     border-radius: 20px;
     transition-duration: 0.5s;
-    padding: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
     
 }
 
 header h1:hover{
     border-radius: 0px;
     transition-duration: 0.5s;
-    background-color: darkorange;
+    background-color: #ff9d00;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
 }
 
 select{
@@ -124,7 +168,6 @@ select{
     border: none;
     outline: none;
     padding: 0;
-    margin: 0;
     width: 100%;
 }
 
@@ -204,6 +247,7 @@ header input{
     border-radius: 50%;
     z-index: 500;
     transition-duration: 0.5s;
+    mix-blend-mode:screen;
 }
 
 .slider::-moz-range-thumb {
@@ -214,6 +258,7 @@ header input{
     border-radius: 50%;
     z-index: 500;
     transition-duration: 0.5s;
+     mix-blend-mode:screen;
 }
 
 .slider::-webkit-slider-thumb:hover {
@@ -224,6 +269,8 @@ header input{
     border-radius: 50%;
     z-index: 500;
     transition-duration: 0.5s;
+    box-shadow: 10px 10px 50px #ff9d00;
+    mix-blend-mode:screen;
     
 /*    box-shadow: 20px 20px 50px black;*/
 }
@@ -234,6 +281,8 @@ header input{
     border-radius: 50%;
     z-index: 500;
     transition-duration: 0.5s;
+    box-shadow: 10px 10px 50px #ff9d00;
+    mix-blend-mode:screen;
 }
 
 .line h1{
@@ -242,7 +291,7 @@ header input{
     float: left;
     font-family: serif;
     font-size: 20px;
-    padding-left: 4px;
+    padding-left: 8px;
     height: auto;
     background-color: white;
     border-bottom: solid 1px black;
@@ -257,7 +306,7 @@ header input{
 }
 
 #disp1{
-    font-family: 'Framespartone-Light';
+    font-family: 'Framespartone-Thin';
 }
 
 #disp2{
@@ -265,16 +314,92 @@ header input{
 }
 
 #disp3{
-    font-family: 'Framespartone-SemiBold';
+    font-family: 'Framespartone-Medium';
 }
 
-#about-txt{
+#abouttxt{
     position: absolute;
-    top: 66.6666vh;
+    top: 0;
     bottom: 0vh;
-    height: 33.33333vh;
     width: 100vw;
-    font-family: serif;
+    padding-top: 5vh;
+    padding-left: 33vw;
+    padding-right: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
     font-size: 25px;
-    background-color: grey;
+    background-color: transparent;
+    text-align: justify;
+}
+
+#abouttxt a{
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border: solid 1px transparent;
+    border-radius: 0px;
+    
+}
+
+#abouttxt a:hover{
+    color: white;
+    background: #04AA6D;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 50px;
+    box-shadow: 10px 10px 100px black;
+    mix-blend-mode: difference;
+}
+
+.fullfont{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-size: 100px;
+    line-height: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    hyphens: none;
+}
+
+#framesfull{
+    font-family: 'Framespartone-Regular';
+    animation: linear 1s infinite alternate fontchangestyle;
+}
+
+#download{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: transparent;
+    border-radius: 50px;
+    font-size: 50px;
+    z-index: 500;
+    text-decoration: none;
+    font-family: serif;
+    padding: 20px;
+    box-shadow: 10px 10px 300px #ff9d00;
+    color: #ff9d00;
+    transition-duration: 0.5s;
+}
+
+#download:hover{
+    background-color: white;
+    transition-duration: 0.5s;
+    border-radius: 0px;
+}
+
+.orangelink{
+    box-shadow: 10px 10px 50px #ff9d00;
+}
+.bluelink{
+    box-shadow: 10px 10px 50px #ff9d00;
+}
+
+@keyframes fontchangestyle {
+  0% { font-family: 'Framespartone-Thin'; }
+  25% { font-family: 'Framespartone-Light'; }
+  50% { font-family: 'Framespartone-Regular'; }
+  75% { font-family: 'Framespartone-Medium'; }
+  100%  { font-family: 'Framespartone-Bold'; }
 }
