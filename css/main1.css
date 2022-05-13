@@ -444,11 +444,11 @@ header input{
     top: 0;
     bottom: 0vh;
     width: 100vw;
-    padding-top: 5vh;
-    padding-left: 33vw;
-    padding-right: 10px;
+    padding-top: 2.5vh;
+    padding-left: 0.5vw;
+    padding-right: 33.3333vw;
     font-family: 'mamertus', serif;
-    font-size: 25px;
+    font-size: 22px;
     background-color: #dddddd;
     text-align: justify;
 }
@@ -472,6 +472,38 @@ header input{
     mix-blend-mode: difference;
 }
 
+#contacttxt{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    padding-left: 33.3333vw;
+    padding-right: 0.5vw;
+    padding-bottom: 20vh;
+    font-family: 'mamertus', serif;
+    font-size: 22px;
+    background-color: #dddddd;
+    text-align: justify;
+}
+
+#contacttxt a{
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border: solid 1px transparent;
+    border-radius: 50px;
+    
+}
+
+#contacttxt a:hover{
+    color: white;
+    background: #494b00;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    border-radius: 0px;
+    box-shadow: 10px 10px 100px #dbed00;
+    mix-blend-mode: difference;
+}
+
 .fullfont{
     position: relative;
     height: 100%;
@@ -485,7 +517,6 @@ header input{
     font-family: 'frames_part_oneregular';
     font-size: 100px;
     line-height: 100px;
-    font-size: 50px;
     animation: linear 1s infinite alternate fontchangestyle;
 }
 
@@ -528,17 +559,54 @@ header input{
 }
 
 @media (max-width: 800px) {
+    
+    header h1{
+        font-size: 80%;
+    }
+    
+    header h2{
+        font-size: 80%;
+    }
+    
+    .line h1{
+        font-size: 80%;
+    }
 	
 	#abouttxt{
-    
+    padding-top: 1vh;
     padding-left: 0.1vw;
-    padding-right: 10px;
-    font-family: sans-serif;
-    font-weight: 100;
-    font-size: 20px;
-    background-color: transparent;
-    text-align: justify;
+    padding-right: 33.3333vw;
+    font-family: 'mamertus', serif;
+    font-size: 15px;
 }
+    #contacttxt{
+    width: 100vw;
+    padding-left: 33.3333vw;
+    padding-right: 0.1vw;
+    padding-bottom: 1vh;
+    font-family: 'mamertus', serif;
+    font-size: 15px;
+   
+}
+    
+    #framesfull{
+        font-size: 60px;
+        line-height: 60px;
+        text-align: justify;
+        text-align-last: justify;
+    }
+    
+    #gtfull{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    
+    #download{
+        top: 40%;
+        left: 12.5%;
+        padding: 20px;
+    }
+
 }
 
 @keyframes fontchangestyle {
