@@ -425,18 +425,21 @@ header input{
 #disp1{
     font-family: 'Granturismovariable';
     font-variation-settings: "wght" 800, "wdth" 100, "ital" 900;
-    font-size: 110px;
+    font-size: 200px;
+    line-height: 140px;
     
 }
 
 #disp2{
     font-family: 'frames_part_oneregular';
-    font-size: 80px;
+    font-size: 200px;
+    line-height: 160px;
 }
 
 #disp3{
     font-family: 'formatitalic';
-    font-size: 80px;
+    font-size: 200px;
+    line-height: 170px;
 }
 
 #abouttxt{
@@ -606,7 +609,50 @@ header input{
         left: 12.5%;
         padding: 20px;
     }
+    
+    #disp1{
+    font-family: 'Granturismovariable';
+    font-variation-settings: "wght" 800, "wdth" 100, "ital" 900;
+    font-size: 100px;
+    line-height: 70px;
+    
+}
 
+    #disp2{
+    font-family: 'frames_part_oneregular';
+    font-size: 100px;
+    line-height: 80px;
+}
+
+    #disp3{
+    font-family: 'formatitalic';
+    font-size: 100px;
+    line-height: 80px;
+}
+
+    .slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 30px; /* Set a specific slider handle width */
+  height: 30px; /* Slider handle height */
+  background: #dbed00; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+    border-radius: 50%;
+    z-index: 500;
+    transition-duration: 0.5s;
+    mix-blend-mode:screen;
+}
+
+.slider::-moz-range-thumb {
+  width: 30px; /* Set a specific slider handle width */
+  height: 30px; /* Slider handle height */
+  background: #dbed00; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+    border-radius: 50%;
+    z-index: 500;
+    transition-duration: 0.5s;
+     mix-blend-mode:screen;
+}
 }
 
 @keyframes fontchangestyle {
