@@ -427,6 +427,7 @@ header input{
     font-variation-settings: "wght" 800, "wdth" 100, "ital" 900;
     font-size: 200px;
     line-height: 140px;
+    padding-top: 3vh;
     
 }
 
@@ -434,12 +435,14 @@ header input{
     font-family: 'frames_part_oneregular';
     font-size: 200px;
     line-height: 160px;
+    padding-top: 3vh;
 }
 
 #disp3{
     font-family: 'formatitalic';
     font-size: 200px;
     line-height: 170px;
+    padding-top: 3vh;
 }
 
 #abouttxt{
@@ -573,6 +576,7 @@ header input{
     
     .line h1{
         font-size: 80%;
+        width: 66.6666vw;
     }
 	
 	#abouttxt{
