@@ -614,15 +614,16 @@ header input{
 	#abouttxt{
     padding-top: 1vh;
     padding-left: 0.1vw;
-    padding-right: 33.3333vw;
+    padding-right: 0.1vw;
     font-family: 'mamertus', serif;
     font-size: 15px;
 }
     #contacttxt{
+    
     width: 100vw;
-    padding-left: 33.3333vw;
+    padding-left: 0.1vw;
     padding-right: 0.1vw;
-    padding-bottom: 1vh;
+    padding-bottom: 15vh;
     font-family: 'mamertus', serif;
     font-size: 15px;
    
